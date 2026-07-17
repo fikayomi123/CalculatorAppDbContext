@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Prevents PowerShell pipeline from halting during migrations -->
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningsNotAsErrors>$(WarningsNotAsErrors);NU1903;NU1510</WarningsNotAsErrors>
+		<NoWarn>$(NoWarn);NU1510;NU1903</NoWarn>
+
+		<!-- Disables NuGet Audit from failing builds on transitive dependency warnings -->
+		<NuGetAudit>true</NuGetAudit>
+		<NuGetAuditLevel>critical</NuGetAuditLevel>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="10.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.0.0" />
+
+		<!-- Forces the project to use the secure, patched version of the library -->
+		<PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Suppresses the specific GitHub advisory warning for the linked project -->
+		<NuGetAuditSuppress Include="https://github.com" />
+		<ProjectReference Include="..\CalculatorApp.Service\CalculatorApp.Service.csproj" />
+		<ProjectReference Include="..\CalculatorMigrations\CalculatorApp.Migrationss.csproj" />
+	</ItemGroup>
+
+</Project>

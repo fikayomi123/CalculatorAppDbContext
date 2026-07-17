@@ -1,0 +1,204 @@
+[
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Acceleration",
+    "RelativePath": "api/Calculator/AccelerationModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.AccelerationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Addition",
+    "RelativePath": "api/Calculator/AdditionModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.AdditionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Area",
+    "RelativePath": "api/Calculator/AreaOfRectangleModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.AreaOfRectangleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Density",
+    "RelativePath": "api/Calculator/DensityOfObjectModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.DensityOfObjectModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Division",
+    "RelativePath": "api/Calculator/DivisionModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.DivisionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "GetHistory",
+    "RelativePath": "api/Calculator/GetHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Multiplication",
+    "RelativePath": "api/Calculator/MultiplicationModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.MultiplicationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Percentage",
+    "RelativePath": "api/Calculator/PercentageModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.PercentageModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "RaiseToPower",
+    "RelativePath": "api/Calculator/RaiseToPowerModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.RaiseToPowerModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "SquareRoot",
+    "RelativePath": "api/Calculator/SquareRootModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.SquareRootModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Subtraction",
+    "RelativePath": "api/Calculator/SubtractionModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.SubtractionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Volume",
+    "RelativePath": "api/Calculator/VolumeOfCubeModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.VolumeofCubeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculatorApp.API.Controller.CalculatorController",
+    "Method": "Weight",
+    "RelativePath": "api/Calculator/WeightOfOblectModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CalculatorModel.NewModel.WeightOfObjectModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

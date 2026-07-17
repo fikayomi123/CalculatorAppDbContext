@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CalculatorAPI/CalculatorApp.API.csproj" Id="2b95204a-51a9-4300-9f56-8967f1f66857" />
+  <Project Path="CalculatorApp.Service/CalculatorApp.Service.csproj" />
+  <Project Path="CalculatorMigrations/CalculatorApp.Migrationss.csproj" />
+  <Project Path="CalculatorModel/CalculatorApp.Model.csproj" Id="0737757b-1427-4598-8aef-87bbaeeb93fc" />
+</Solution>
