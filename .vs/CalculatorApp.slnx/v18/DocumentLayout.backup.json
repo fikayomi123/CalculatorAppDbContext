@@ -74,8 +74,7 @@
               "RelativeToolTip": "CalculatorApp.Service\\Implementations\\CalculatorServices.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T21:47:43.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T21:47:43.301Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "CalculatorModel\\Enitiy\\CalculatorHistory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T22:03:07.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T22:03:07.676Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "CalculatorMigrations\\CalculatorAppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T21:21:28.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T21:21:28.865Z"
             },
             {
               "$type": "Document",
@@ -111,7 +108,7 @@
               "RelativeDocumentMoniker": "CalculatorAPI\\Controller\\CalculatorController.cs",
               "ToolTip": "C:\\Users\\ABDULRAHMAN\\source\\repos\\CalculatorApp\\CalculatorAPI\\Controller\\CalculatorController.cs",
               "RelativeToolTip": "CalculatorAPI\\Controller\\CalculatorController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAACAzMzMzEwawEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-05T18:42:38.764Z",
               "EditorCaption": ""
@@ -126,8 +123,7 @@
               "RelativeToolTip": "CalculatorApp.Service\\Implementations\\ICalculatorServices.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-27T18:19:22.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-27T18:19:22.512Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "CalculatorModel\\ViewModel\\CalculatorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T22:03:28.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T22:03:28.829Z"
             },
             {
               "$type": "Document",
