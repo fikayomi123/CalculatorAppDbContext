@@ -9,3 +9,4 @@ C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorModel\obj\Debug\net10.
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorModel\obj\Debug\net10.0\refint\CalculatorApp.Model.dll
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorModel\obj\Debug\net10.0\CalculatorApp.Model.pdb
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorModel\obj\Debug\net10.0\ref\CalculatorApp.Model.dll
+C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorModel\obj\Debug\net10.0\CalculatorApp.Model.sourcelink.json

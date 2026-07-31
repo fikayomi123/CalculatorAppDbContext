@@ -220,3 +220,6 @@ C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorAPI\bin\Debug\net10.0\
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorAPI\bin\Debug\net10.0\CalculatorApp.Service.pdb
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorAPI\obj\Debug\net10.0\CalculatorApp.API.sourcelink.json
+C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorAPI\bin\Debug\net10.0\Npgsql.dll
+C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorAPI\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

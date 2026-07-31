@@ -61,3 +61,4 @@ C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorMigrations\obj\Debug\n
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorMigrations\obj\Debug\net10.0\CalculatorApp.Migrationss.pdb
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorMigrations\obj\Debug\net10.0\CalculatorApp.Migrationss.genruntimeconfig.cache
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorMigrations\obj\Debug\net10.0\ref\CalculatorApp.Migrationss.dll
+C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorMigrations\obj\Debug\net10.0\CalculatorApp.Migrationss.sourcelink.json

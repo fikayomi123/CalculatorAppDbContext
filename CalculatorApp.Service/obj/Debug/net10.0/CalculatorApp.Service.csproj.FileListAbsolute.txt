@@ -61,3 +61,4 @@ C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorApp.Service\bin\Debug\
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorApp.Service\bin\Debug\net10.0\CalculatorApp.Model.pdb
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorApp.Service\obj\Debug\net10.0\CalculatorApp.Service.csproj.AssemblyReference.cache
 C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorApp.Service\obj\Debug\net10.0\Calculat.18C86E8B.Up2Date
+C:\Users\ABDULRAHMAN\source\repos\CalculatorApp\CalculatorApp.Service\obj\Debug\net10.0\CalculatorApp.Service.sourcelink.json
