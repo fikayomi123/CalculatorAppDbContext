@@ -1,17 +1,16 @@
 # See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-# Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
-# For more information, please see https://aka.ms/containercompat
-
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:10.0-nanoserver-ltsc2022 AS base
+# CHANGED: Switched from Windows Nanoserver to standard Linux ASP.NET 10.0 runtime
+FROM ://microsoft.com AS base
 WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
-
+# CHANGED: Render routes web traffic through port 10000 by default
+ENV ASPNETCORE_URLS=http://+:10000
+EXPOSE 10000
 
 # This stage is used to build the service project
-FROM mcr.microsoft.com/dotnet/sdk:10.0-nanoserver-ltsc2022 AS build
+# CHANGED: Switched from Windows Nanoserver to standard Linux .NET 10.0 SDK
+FROM ://microsoft.com AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["CalculatorAPI/CalculatorApp.API.csproj", "CalculatorAPI/"]
@@ -21,12 +20,14 @@ COPY ["CalculatorModel/CalculatorApp.Model.csproj", "CalculatorModel/"]
 RUN dotnet restore "./CalculatorAPI/CalculatorApp.API.csproj"
 COPY . .
 WORKDIR "/src/CalculatorAPI"
-RUN dotnet build "./CalculatorApp.API.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+# CHANGED: Replaced Windows %BUILD_CONFIGURATION% syntax with Linux $BUILD_CONFIGURATION syntax
+RUN dotnet build "./CalculatorApp.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./CalculatorApp.API.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+# CHANGED: Replaced Windows %BUILD_CONFIGURATION% syntax with Linux $BUILD_CONFIGURATION syntax
+RUN dotnet publish "./CalculatorApp.API.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
