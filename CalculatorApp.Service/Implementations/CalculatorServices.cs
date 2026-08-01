@@ -20,7 +20,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = model.NumberA + model.NumberB;
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Addition",
                 Answer = formula.ToString()
             };
@@ -34,7 +34,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = model.NumberA - model.NumberB;
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Subtraction",
                 Answer = formula.ToString()
             };
@@ -47,7 +47,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = model.Velocity / model.Time;
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Acceleration",
                 Answer = formula.ToString()
             };
@@ -60,7 +60,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = model.NumberA / model.NumberB;
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Division",
                 Answer = formula.ToString()
             };
@@ -74,7 +74,7 @@ namespace CalculatorApp.Service.Implementations
             var history = new CalculatorHistory
 
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Multiplication",
                 Answer = formula.ToString()
             };
@@ -91,7 +91,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = model.NumberA * model.NumberB;
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Area",
                 Answer = formula.ToString()
             };
@@ -105,7 +105,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = model.NumberA * model.NumberB;
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Volume",
                 Answer = formula.ToString(),
             };
@@ -118,7 +118,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = model.Mass * model.AccelerationDG ;
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Weight",
                 Answer = formula.ToString(),
             };
@@ -131,7 +131,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = Math.Sqrt(model.NumberA);
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "SquareRoot",
                 Answer = formula.ToString(),
 
@@ -145,7 +145,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = Math.Pow(model.NumberA, model.NumberB);
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Expodential",
                 Answer = formula.ToString(),
             };
@@ -159,7 +159,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = model.Mass / model.Volume;
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Density",
                 Answer = formula.ToString()
             };
@@ -172,7 +172,7 @@ namespace CalculatorApp.Service.Implementations
             var formula = (model.NumberA / 100);
             var history = new CalculatorHistory
             {
-                DataPerformed = DateTime.Now,
+                DataPerformed = DateTime.UtcNow,
                 Action = "Percentage",
                 Answer = formula.ToString()
             };
