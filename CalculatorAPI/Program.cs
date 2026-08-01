@@ -1,25 +1,29 @@
+using Microsoft.AspNetCore.HttpOverrides;
 using CalculatorApp.Service.Implementations;
 using CalculatorMigrations;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddDbContext<CalculatorAppDbContex>();
 builder.Services.AddTransient<ICalculatorServices, CalculatorServices>();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders =
+        ForwardedHeaders.XForwardedFor |
+        ForwardedHeaders.XForwardedProto;
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseForwardedHeaders();
+
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
-    // Generates the JSON document endpoint (defaults to /openapi/v1.json)
     app.MapOpenApi();
 
-    // Enable Swagger UI and point it to the native JSON file
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/openapi/v1.json", "My API v1");
