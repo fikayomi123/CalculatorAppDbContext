@@ -14,7 +14,7 @@ builder.Services.AddOpenApi();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     // Generates the JSON document endpoint (defaults to /openapi/v1.json)
     app.MapOpenApi();
